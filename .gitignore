@@ -1,0 +1,9 @@
+.env
+# Ignore specific file
+Churn_Predictor/churn_pipeline.pkl
+
+# Ignore model folder
+News_Classifier/bert_news_model/
+
+# Ignore outputs folder
+News_Classifier/outputs/
