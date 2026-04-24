@@ -6,7 +6,7 @@
 
 **Models applied:** `bert-base-uncased`, fine-tuned with the `Trainer` API.
 
-**What was done:**
+**Working:**
 - Loaded AG News via `datasets`, shuffled and subsetted 
 - EDA: class distribution bar chart, word count histogram with MAX_LEN marker, sample headlines per category
 - Tokenized with `BertTokenizer`, wrapped in a custom `NewsDataset(Dataset)` PyTorch class
