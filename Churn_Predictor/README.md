@@ -7,7 +7,7 @@
 
 **Models applied:** Logistic Regression and Random Forest, both tuned with `GridSearchCV`.
 
-**What was done:**
+**Working:**
 - EDA: churn class distribution , box plots comparing tenure/MonthlyCharges/TotalCharges between churners and non-churners, churn rate by contract type / internet service / payment method / TechSupport, correlation heatmap
 - Cleaned `TotalCharges` blank strings (coerced to NaN, dropped 11 rows), dropped `customerID`, binary encoded target
 - Built a `ColumnTransformer` preprocessor: `StandardScaler` on numerical features, `OneHotEncoder` (drop='first', handle_unknown='ignore') on categorical features
